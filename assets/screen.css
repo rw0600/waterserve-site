@@ -1,0 +1,345 @@
+h1 {
+	/*18px via YUI Fonts CSS foundation*/
+	font-size: 138.5%;
+}
+h2 {
+	/*16px via YUI Fonts CSS foundation*/
+	font-size: 108%; 
+}
+h3 {
+	/*14px via YUI Fonts CSS foundation*/
+	font-size: 100%;
+}
+h1,h2,h3 {
+	/* top & bottom margin based on font size */
+	margin: 1em 0;
+}
+h1,h2,h3,h4,h5,h6 {
+	/*bringing boldness back to headers*/
+	font-weight:bold; 
+}
+strong {
+	/*bringing boldness back to strong element*/
+	font-weight:bold; 
+}
+abbr,acronym {
+	/*indicating to users that more info is available */
+	border-bottom:1px dotted #000;
+	cursor:help;
+} 
+em {
+	/*bringing italics back to the em element*/
+	font-style:italic;
+}
+blockquote,ul,ol,dl {
+	/*giving blockquotes and lists room to breath*/
+	margin:1em;
+}
+ol,ul,dl {
+	/*bringing lists on to the page with breathing room */
+	margin-left:2em;
+}
+ol li {
+	/*giving OL's LIs generated numbers*/
+	list-style: decimal outside;	
+}
+ul li {
+	/*giving UL's LIs generated disc markers*/
+	list-style: disc outside;
+}
+dl dd {
+	/*giving UL's LIs generated numbers*/
+	margin-left:1em;
+}
+th,td {
+	/*borders and padding to make the table readable*/
+	border:1px solid #000;
+	padding:.5em;
+}
+th {
+	/*distinguishing table headers from data cells*/
+	font-weight:bold;
+	text-align:center;
+}
+caption {
+	/*coordinated margin to match cell's padding*/
+	margin-bottom:.5em;
+	/*centered so it doesn't blend in to other content*/
+	text-align:center;
+}
+p,fieldset,table,pre {
+	/*so things don't run into each other*/
+	margin-bottom: 1em;
+}
+
+label {
+	font-weight:bold;
+}
+
+html {
+    background: #fff url(/assets/bg.png) repeat-y top center;
+}
+body {
+    background-color: #fff;
+}
+ 
+/* setting a consistent width, 160px; control of type=file still not possible */
+input[type=text],input[type=password],textarea {
+width: 18.38em;
+*width: 17.85;
+}
+
+.skiplink {
+display: none;
+}
+
+.clear {
+clear: both;
+height: 1px;
+overflow: hidden;
+}
+
+.prop {
+float: right;
+width: 1px;
+}
+
+.star {
+color: red;
+font-family: Times;
+}
+
+.validation-error {
+color: red;
+}
+
+.admin-options {
+padding: 15px 5px 12px 12px;
+background-color: threedface;
+text-align: left;
+border-bottom: 1px solid threedshadow;
+}
+
+.form {
+background-color: threedface;
+border: 1px solid threedshadow;
+}
+
+#message-success img, #message-failure img, #message-warning img {
+float: left;
+}
+
+#message-success {
+background: #339933;
+margin: 0 0 10px 0;
+padding: 5px 5px 5px 8px;
+}
+
+#message-failure {
+background: #cc0000;
+margin: 0 0 10px 0;
+padding: 5px 5px 5px 8px;
+}
+
+#message-warning {
+background: #ffff00;
+margin: 0 0 10px 0;
+padding: 5px 5px 5px 8px;
+}
+
+#hd-logo {
+background: #fff url(/assets/hd_bg.jpg) no-repeat;
+height: 110px;
+border-bottom: 1px #ccc solid;
+}
+
+div.right-block  {
+margin-bottom: 1em;
+}
+div.right-block  * {
+margin: 0 auto;
+}
+
+h1 {
+margin-top: 0;
+color: #3FB2D9;
+}
+
+#ft {
+padding: 10px 0 0 173px;
+color: #666;
+font-size: 85%;
+background-color: #f4f4f4;
+}
+
+#bd {
+margin-top: 3em;
+}
+
+#doc2 {
+border-right: 1px #ccc solid;
+border-left: 1px #ccc solid;
+}
+
+#hd-logo a {
+position: relative;
+top: 20px;
+left: 20px;
+}
+
+div.form {
+padding-left: 1em;
+}
+
+body {
+color: #666;
+}
+
+a {
+color: blue;
+}
+
+/* --- Menus --- */
+
+ul.main-nav {
+list-style: none;
+margin: 0;
+padding: 0;
+border: none;
+margin-left: 1em;
+}
+		
+li.main-nav {
+list-style: none;
+margin: 0;
+padding: 0;
+padding-bottom: 2%;
+}
+
+a.main-nav {
+color: #666;
+text-decoration: none;
+font-weight: bold;
+display: block;
+margin: 0;
+padding: 0;
+}
+
+html>body a.main-nav {
+width: auto;
+}
+
+a.main-nav:link, a.main-nav:visited {
+text-decoration: none;
+}
+
+a.main-nav:hover {
+color: #3FB2D9;
+}
+
+
+ul.sub-nav {
+list-style: none;
+margin: 0;
+padding: 4% 0 4% 12%;
+border: none;
+}
+		
+li.sub-nav {
+list-style: disc;
+margin: 0;
+padding: 0;
+}
+
+a.sub-nav {
+color: #666;
+text-decoration: none;
+display: block;
+margin: 0;
+padding: 0;
+}
+
+html>body a.sub-nav {
+width: auto;
+}
+
+a.sub-nav:link, a.sub-nav:visited {
+text-decoration: none;
+}
+
+a.sub-nav:hover {
+color: #3FB2D9;
+}
+
+
+ul.subsub-nav {
+list-style: none;
+margin: 0;
+padding: 4% 0 4% 12%;
+border: none;
+}
+		
+li.subsub-nav {
+list-style: disc;
+margin: 0;
+padding: 0;
+}
+
+a.subsub-nav {
+color: #666;
+text-decoration: none;
+display: block;
+margin: 0;
+padding: 0;
+}
+
+html>body a.subsub-nav {
+width: auto;
+}
+
+a.subsub-nav:link, a.subsub-nav:visited {
+text-decoration: none;
+}
+
+a.subsub-nav:hover {
+color: #3FB2D9;
+}
+
+
+ul.subsubsub-nav {
+list-style: none;
+margin: 0;
+padding: 4% 0 4% 12%;
+border: none;
+}
+		
+li.subsubsub-nav {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+a.subsubsub-nav {
+color: #666;
+text-decoration: none;
+display: block;
+margin: 0;
+padding: 0;
+}
+
+html>body a.subsubsub-nav {
+width: auto;
+}
+
+a.subsubsub-nav:link, a.subsubsub-nav:visited {
+text-decoration: none;
+}
+
+a.subsubsub-nav:hover {
+color: #3FB2D9;
+}
+
+
+.nav-current {
+color: #3FB2D9;
+}
